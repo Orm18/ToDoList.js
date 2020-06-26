@@ -113,8 +113,7 @@ window.onload = function() {
                         outList()
                     }
                  })        
-             }
-            else {
+             } else {
                 let tmp = document.getElementById(id)
                 tmp.parentElement.remove();
                 let tmpAr = listToDo

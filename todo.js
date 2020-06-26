@@ -93,7 +93,7 @@ window.onload = function() {
                     icon_save.setAttribute('id',`save_${item_id}`)
                     edit_input.setAttribute('id','input_edit')
                     edit_input.setAttribute('style',' margin: 4px')
-                    edit_input.setAttribute('placeholder', text)
+                    edit_input.setAttribute('value', text)
                 label_li.parentElement.append(icon_save)
                 label_li.parentElement.insertBefore(edit_input, label_li)
                 label_li.hidden = true
